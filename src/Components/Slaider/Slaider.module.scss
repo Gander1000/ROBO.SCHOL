@@ -1,0 +1,88 @@
+.Slaider {
+  padding: 5vw 10vw;
+  padding-left: 18vw;
+  padding-right: 0;
+  background-color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 3vw;
+}
+
+.contai_h1 {
+  h1 {
+    font-size: 40px;
+    line-height: 160%;
+  }
+}
+
+.Slaider_con {
+  display: flex;
+  flex-direction: column;
+}
+
+.bloc_container {
+}
+
+.bloc {
+  padding: 10px;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  img {
+    width: 100%;
+    max-width: 230px;
+  }
+
+  p {
+    color: #141024;
+    font-size: 18px;
+    font-weight: 900;
+  }
+
+  span {
+    color: #141024b2;
+    font-size: 12px;
+  }
+
+  h3 {
+    color: #d52027;
+    font-size: 15px;
+  }
+}
+
+.next_prev_lini {
+  display: flex;
+  gap: 35vw;
+}
+
+.arrows {
+  display: flex;
+  gap: 5px;
+
+  button {
+    width: 100%;
+    border: none;
+    background-color: white;
+  }
+}
+
+.progressBar {
+  width: 15vw;
+  height: 4px;
+  background: #eaeaea;
+  border-radius: 10px;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.progressFill {
+  height: 100%;
+  background: #0d0c2d;
+  border-radius: 10px;
+  transition: width 0.4s ease;
+}

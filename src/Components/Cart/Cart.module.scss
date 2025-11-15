@@ -1,0 +1,44 @@
+.Cart{
+    padding: 5vw 18vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3vw;
+}
+
+.logo_title{
+
+    span{
+        font-size: 20px;
+        line-height: 1.6;
+        span{
+            padding-right: 2px;
+            font-size: 25px;
+            font-weight: 700;
+            color: #141024;
+        }
+    }
+}
+
+.container{
+    display: flex;
+    gap: 2.5vw;
+}
+
+.bloc{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    h1{
+        font-size: 60px;
+        color: #D52027;
+        font-weight: 600;
+    }
+
+    span{
+        font-size: 15px;
+        color: #141024B2;
+        line-height: 1.4;
+    }
+}

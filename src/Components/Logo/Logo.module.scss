@@ -1,0 +1,48 @@
+.Logo {
+  padding: 1.5vw 6.5vw;
+  padding-bottom: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #141024;
+  gap: 4vw;
+}
+
+.contai_title {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 10vw;
+
+  h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+  }
+
+  span {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.76);
+    text-decoration: none;
+    font-weight: 100;
+    line-height: 1.5;
+  }
+
+  button{
+    padding: 15px;
+    background-color: #D52027;
+    border: none;
+    color: white;
+    max-width: 12vw;
+    border-radius: 5px;
+  }
+}
+
+.contai_img{
+    display: flex;
+    align-items: center;
+    background-color: #141024;
+    
+    img{
+        max-width: 35vw;
+    }
+}

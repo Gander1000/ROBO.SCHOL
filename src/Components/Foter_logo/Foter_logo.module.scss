@@ -1,0 +1,31 @@
+.Foter_logo{
+    padding: 1.5vw 5vw;
+    background-color: #141024;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title_logo{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 15px;
+
+    h1{
+        font-size: 25px;
+    }
+
+    h6{
+        letter-spacing: 1px;
+        color: #FFFFFFB2;
+    }
+}
+
+.Number{
+    color: white;
+
+    p{
+        font-size: 23px;
+        font-weight: bold;
+    }
+}

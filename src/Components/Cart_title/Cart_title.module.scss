@@ -1,0 +1,83 @@
+.Cart_title {
+  padding: 5vw 18vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 80px;
+  background-color: #f9f9f9;
+
+  h1 {
+    font-size: 45px;
+    font-weight: 600;
+    color: #141024;
+  }
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 2.3vw;
+}
+
+.bloc {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  h1 {
+    font-size: 20px;
+    color: #141024;
+    font-weight: 600;
+  }
+
+  span {
+    color: #141024b2;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.6;
+  }
+}
+
+.contai {
+  display: flex;
+  gap: 5px;
+
+  img {
+    max-width: 1vw;
+    padding-bottom: 5px;
+  }
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+
+  & .icon {
+    display: inline-flex;
+    cursor: pointer;
+  }
+
+  & .tooltipText {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    bottom: 130%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    color: #222;
+    padding: 10px 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    white-space: nowrap;
+    transition: opacity 0.2s ease;
+    font-size: 14px;
+    z-index: 10;
+  }
+
+  &:hover .tooltipText {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+

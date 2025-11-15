@@ -1,0 +1,27 @@
+.Heder{
+    padding: 1.3vw 6.5vw;
+    background-color: #141024;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h1{
+        font-size: 20px;
+        font-weight: 700;
+        color: white;
+    }
+}
+
+.contai_a{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 3vw;
+
+    a{
+        font-size: 13px;
+        color: rgba(255, 255, 255, 0.855);
+        text-decoration: none;
+        font-weight: 100;
+    }
+}
